@@ -13,6 +13,14 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fnushu%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnotofonts%2Fnushu%2Fgh-pages%2Fbadges%2FUniversal.json
 
+### Which Noto fonts should I use for the Nüshu script?
+
+Noto has two font families for the Nüshu script:
+
+- Noto Sans Nushu, an unmodulated design in one weight, with a simplified, modernized skeleton and relatively large counters. It is suitable for shorter texts, especially in smaller font sizes and user interface contexts.
+
+- Noto Traditional Nushu, an unmodulated design in three weights, with a more calligraphic skeleton and a more compact appearance. It is suitable for longer texts, especially those set in medium font sizes, and for headlines. Traditional Nushu was designed in China, and has support for vertical typesetting.
+
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
