@@ -1,11 +1,7 @@
 {
-.appVersion = "1286";
+.appVersion = "3072";
 copyright = "Copyright 2020 Google LLC. All Rights Reserved.";
 customParameters = (
-{
-name = vendorID;
-value = GOOG;
-},
 {
 name = unicodeRanges;
 value = (
@@ -424,6 +420,29 @@ u1B2FB
 );
 },
 {
+name = fsType;
+value = (
+);
+},
+{
+name = codePageRanges;
+value = (
+"1252"
+);
+},
+{
+name = "Has WWS Names";
+value = 1;
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
 name = description;
 value = "Designed by Lisa Huang";
 },
@@ -442,34 +461,6 @@ value = "Noto is a trademark of Google LLC.";
 {
 name = versionString;
 value = "Version 1.002";
-},
-{
-name = fsType;
-value = (
-);
-},
-{
-name = codePageRanges;
-value = (
-"1252"
-);
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-},
-{
-name = "Has WWS Names";
-value = 1;
-},
-{
-name = "Don't use Production Names";
-value = 1;
 }
 );
 date = "2020-06-11 19:35:10 +0000";
@@ -52226,10 +52217,6 @@ unicode = 1B2FB;
 instances = (
 {
 customParameters = (
-{
-name = weightClass;
-value = 400;
-},
 {
 name = panose;
 value = (
