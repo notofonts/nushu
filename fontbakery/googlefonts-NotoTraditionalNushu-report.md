@@ -1,20 +1,12 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
 <details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoTraditionalNushu/googlefonts/ttf', 'fonts/NotoTraditionalNushu/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[14] NotoTraditionalNushu-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoTraditionalNushu-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
 
 
 * 🔥 **FAIL**  OS/2 sTypoAscender is 880 when it should be 860 [code: cjk-metric-regression]
@@ -24,7 +16,7 @@ Fontbakery version: 0.8.9
 * 🔥 **FAIL**  OS/2 usWinDescent is 120 when it should be 118 [code: cjk-metric-regression]
 * 🔥 **FAIL**  hhea ascent is 1080 when it should be 1055 [code: cjk-metric-regression]
 * 🔥 **FAIL**  hhea descent is -120 when it should be -117 [code: cjk-metric-regression]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
 * 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 600 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
@@ -48,9 +40,9 @@ Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni3002.locl
+	- u1B2B3.001
 
-	- u1B2B3.001 
+	- uni3002.locl 
 
 	- And uni4494.locl
  [code: unreachable-glyphs]
@@ -144,15 +136,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* u1B253 (U+1B253): L<<502.0,999.0>--<618.0,1000.0>> 
 
 	* And u1B27E (U+1B27E): L<<389.0,999.0>--<506.0,1000.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoTraditionalNushu-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoTraditionalNushu-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
 
 
 * 🔥 **FAIL**  OS/2 sTypoAscender is 880 when it should be 860 [code: cjk-metric-regression]
@@ -162,7 +146,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * 🔥 **FAIL**  OS/2 usWinDescent is 120 when it should be 118 [code: cjk-metric-regression]
 * 🔥 **FAIL**  hhea ascent is 1080 when it should be 1055 [code: cjk-metric-regression]
 * 🔥 **FAIL**  hhea descent is -120 when it should be -117 [code: cjk-metric-regression]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
 * 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 600 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
@@ -193,9 +177,9 @@ Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni3002.locl
+	- u1B2B3.001
 
-	- u1B2B3.001 
+	- uni3002.locl 
 
 	- And uni4494.locl
  [code: unreachable-glyphs]
@@ -241,15 +225,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* u1B2B5 (U+1B2B5): L<<659.0,553.0>--<660.0,553.0>> -> L<<660.0,553.0>--<660.0,553.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[15] NotoTraditionalNushu-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoTraditionalNushu-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
 
 
 * 🔥 **FAIL**  OS/2 sTypoAscender is 880 when it should be 860 [code: cjk-metric-regression]
@@ -259,7 +235,7 @@ The following glyphs do not have the recommended number of contours:
 * 🔥 **FAIL**  OS/2 usWinDescent is 120 when it should be 118 [code: cjk-metric-regression]
 * 🔥 **FAIL**  hhea ascent is 1080 when it should be 1055 [code: cjk-metric-regression]
 * 🔥 **FAIL**  hhea descent is -120 when it should be -117 [code: cjk-metric-regression]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
 * 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 600 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
@@ -271,16 +247,16 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* u1B1ED
-	* u1B2C8
-	* u1B2E6
-	* u1B2F1
-	* eight
-	* u1B179
-	* u1B19E
-	* u1B255
-	* u1B1F1
-	* u1B18E and 215 more.
+	* .notdef
+	* D
+	* G
+	* I
+	* M
+	* N
+	* O
+	* S
+	* W
+	* Z and 215 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -306,9 +282,9 @@ Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni3002.locl
+	- u1B2B3.001
 
-	- u1B2B3.001 
+	- uni3002.locl 
 
 	- And uni4494.locl
  [code: unreachable-glyphs]
@@ -354,14 +330,18 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* u1B2B5 (U+1B2B5): L<<713.0,550.0>--<713.0,550.0>> -> L<<713.0,550.0>--<713.0,550.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[14] NotoTraditionalNushu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoTraditionalNushu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
 
 
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
 </div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
 
 
@@ -372,18 +352,10 @@ The following glyphs do not have the recommended number of contours:
 * 🔥 **FAIL**  OS/2 usWinDescent is 120 when it should be 118 [code: cjk-metric-regression]
 * 🔥 **FAIL**  hhea ascent is 1080 when it should be 1055 [code: cjk-metric-regression]
 * 🔥 **FAIL**  hhea descent is -120 when it should be -117 [code: cjk-metric-regression]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
-
-
-* 🔥 **FAIL** This variable font does not have an avar table. [code: missing-avar]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
 
 
 * 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 600 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 269. [code: invalid-default-instance-subfamily-nameid:269]
 </div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
 
 
@@ -402,6 +374,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 The following CJK glyphs were found:
 ['uni2EDA', 'uni2F08', 'uni2F25', 'uni2FA5', 'uni2FAF', 'uni34B5', 'uni34C1', 'uni34C5', 'uni3539', 'uni4352', 'uni4491', 'uni4E66', 'uni2F08', 'uni51E1', 'uni53E9', 'uni2F25', 'uni662F', 'uni6C38', 'uni6D4B', 'uni7136', 'uni7532', 'uni7684', 'uni8BD5', 'uni8FD9', 'uni2FA5', 'uni2FAF', 'uni97E9', 'uni2EDA', 'uni2FA5']
 Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
+
+
+* ⚠ **WARN** This variable font does not have an avar table. [code: missing-avar]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -411,9 +387,9 @@ Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni3002.locl
+	- u1B2B3.001
 
-	- u1B2B3.001 
+	- uni3002.locl 
 
 	- And uni4494.locl
  [code: unreachable-glyphs]
@@ -435,8 +411,8 @@ Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 4 | 15 | 39 | 453 | 26 | 358 | 0 |
-| 0% | 2% | 4% | 51% | 3% | 40% | 0% |
+| 3 | 9 | 40 | 435 | 26 | 350 | 0 |
+| 0% | 1% | 5% | 50% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
