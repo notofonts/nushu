@@ -11,7 +11,7 @@ DisplayStrings = (
 "/u1B2B2/u1B2B7/u1B2C0",
 "/u1B18F"
 );
-copyright = "Copyright 2019-2022 Google LLC. All Rights Reserved.";
+copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)";
 customParameters = (
 {
 name = fsType;
@@ -921,11 +921,11 @@ value = "Noto is a trademark of Google LLC.";
 },
 {
 name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
@@ -933,7 +933,11 @@ value = GOOG;
 },
 {
 name = versionString;
-value = "Version 2.002";
+value = "Version 2.003";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = Axes;
@@ -205856,5 +205860,5 @@ GSDimensionPlugin.Dimensions = {
 LWPluginVersion = "1429";
 };
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }
