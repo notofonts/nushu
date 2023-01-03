@@ -1,11 +1,9 @@
 {
-.appVersion = "3072";
+.appVersion = "3109";
 DisplayStrings = (
 "/u1B2B3",
 "/u1B2B2",
 "/u1B1F6/u1B18F",
-"",
-"",
 "/u1B2E4",
 "/u1B1E6",
 "/u1B2B2/u1B2B7/u1B2C0",
@@ -912,8 +910,8 @@ value = (
 );
 },
 {
-name = description;
-value = "This font is designed based on Nüshu Duben, which the designer is Liu Zhao, the engineering is Eiso Chan, the quality assurance is Kushim Jiang, the design assistant is Kwat Ulan, and the copywriting is Zhu Kui, and the adviser is Ms. He Yanxin.";
+name = "Use Typo Metrics";
+value = 1;
 },
 {
 name = trademark;
@@ -934,10 +932,6 @@ value = GOOG;
 {
 name = versionString;
 value = "Version 2.003";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 },
 {
 name = Axes;

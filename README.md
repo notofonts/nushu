@@ -19,7 +19,7 @@ Noto has two font families for the Nüshu script:
 
 - Noto Sans Nushu, an unmodulated design in one weight, with a simplified, modernized skeleton and relatively large counters. It is suitable for shorter texts, especially in smaller font sizes and user interface contexts.
 
-- Noto Traditional Nushu, an unmodulated design in three weights, with a more calligraphic skeleton and a more compact appearance. It is suitable for longer texts, especially those set in medium font sizes, and for headlines. Traditional Nushu was designed in China, and has support for vertical typesetting.
+- Noto Traditional Nushu, an unmodulated design in three weights, with a more calligraphic skeleton and a more compact appearance. It is suitable for longer texts, especially those set in medium font sizes, and for headlines. Traditional Nushu was designed in China, and has support for vertical typesetting. This font is designed based on Nüshu Duben, which the designer is Liu Zhao, the engineering is Eiso Chan, the quality assurance is Kushim Jiang, the design assistant is Kwat Ulan, and the copywriting is Zhu Kui, and the adviser is Ms. He Yanxin.
 
 ## Building
 
