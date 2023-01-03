@@ -1,29 +1,15 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.10
+Fontbakery version: 0.8.11a8
 
 <details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoTraditionalNushu/googlefonts/ttf', 'fonts/NotoTraditionalNushu/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[12] NotoTraditionalNushu-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoTraditionalNushu-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL**  OS/2 sTypoAscender is 880 when it should be 860 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 sTypoDescender is -120 when it should be -117 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 sTypoLineGap is 200 when it should be 90 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 usWinAscent is 1080 when it should be 1055 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 usWinDescent is 120 when it should be 118 [code: cjk-metric-regression]
-* 🔥 **FAIL**  hhea ascent is 1080 when it should be 1055 [code: cjk-metric-regression]
-* 🔥 **FAIL**  hhea descent is -120 when it should be -117 [code: cjk-metric-regression]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 600 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain less than 40 CJK characters? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_not_enough_glyphs">com.google.fonts/check/cjk_not_enough_glyphs</a>)</summary><div>
 
 
@@ -136,24 +122,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* u1B253 (U+1B253): L<<502.0,999.0>--<618.0,1000.0>> 
 
 	* And u1B27E (U+1B27E): L<<389.0,999.0>--<506.0,1000.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoTraditionalNushu-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoTraditionalNushu-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL**  OS/2 sTypoAscender is 880 when it should be 860 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 sTypoDescender is -120 when it should be -117 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 sTypoLineGap is 200 when it should be 90 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 usWinAscent is 1080 when it should be 1055 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 usWinDescent is 120 when it should be 118 [code: cjk-metric-regression]
-* 🔥 **FAIL**  hhea ascent is 1080 when it should be 1055 [code: cjk-metric-regression]
-* 🔥 **FAIL**  hhea descent is -120 when it should be -117 [code: cjk-metric-regression]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 600 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -225,24 +197,10 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* u1B2B5 (U+1B2B5): L<<659.0,553.0>--<660.0,553.0>> -> L<<660.0,553.0>--<660.0,553.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[13] NotoTraditionalNushu-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoTraditionalNushu-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL**  OS/2 sTypoAscender is 880 when it should be 860 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 sTypoDescender is -120 when it should be -117 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 sTypoLineGap is 200 when it should be 90 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 usWinAscent is 1080 when it should be 1055 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 usWinDescent is 120 when it should be 118 [code: cjk-metric-regression]
-* 🔥 **FAIL**  hhea ascent is 1080 when it should be 1055 [code: cjk-metric-regression]
-* 🔥 **FAIL**  hhea descent is -120 when it should be -117 [code: cjk-metric-regression]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 600 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -330,7 +288,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* u1B2B5 (U+1B2B5): L<<713.0,550.0>--<713.0,550.0>> -> L<<713.0,550.0>--<713.0,550.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[14] NotoTraditionalNushu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoTraditionalNushu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -342,24 +300,10 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
-</div></details><details><summary>🔥 <b>FAIL:</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions">com.google.fonts/check/cjk_vertical_metrics_regressions</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
-* 🔥 **FAIL**  OS/2 sTypoAscender is 880 when it should be 860 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 sTypoDescender is -120 when it should be -117 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 sTypoLineGap is 200 when it should be 90 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 usWinAscent is 1080 when it should be 1055 [code: cjk-metric-regression]
-* 🔥 **FAIL**  OS/2 usWinDescent is 120 when it should be 118 [code: cjk-metric-regression]
-* 🔥 **FAIL**  hhea ascent is 1080 when it should be 1055 [code: cjk-metric-regression]
-* 🔥 **FAIL**  hhea descent is -120 when it should be -117 [code: cjk-metric-regression]
-</div></details><details><summary>🔥 <b>FAIL:</b> Space and non-breaking space have the same width? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_widths">com.google.fonts/check/whitespace_widths</a>)</summary><div>
-
-
-* 🔥 **FAIL** Space and non-breaking space have differing width: The space glyph named space is 600 font units wide, non-breaking space named (uni00A0) is 260 font units wide, and both should be positive and the same. GlyphsApp has "Sidebearing arithmetic" (https://glyphsapp.com/tutorials/spacing) which allows you to set the non-breaking space width to always equal the space width. [code: different-widths]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
+* 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -402,17 +346,32 @@ Please check that these glyphs have the correct unicodes. [code: cjk-not-enough-
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
+
+
+* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 2 start point differs in glyph 'u1B1CE' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1f90>
+
+	- Contour order differs in glyph 'u1B2F1': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1ed0>, [0, 1, 2, 9, 10, 11, 12, 3, 4, 5, 6, 7, 8] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1f90>.
+
+	- Contour 3 start point differs in glyph 'u1B2F1' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1f90>
+
+	- Contour 5 start point differs in glyph 'u1B2F1' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1f90>
+
+	- Contour 9 start point differs in glyph 'u1B2F1' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1f90> 
+
+	- And Contour 11 start point differs in glyph 'u1B2F1' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1ed0> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7fc12c7b1f90> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
 
 * ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
 </div></details><br></div></details>
+
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 9 | 40 | 435 | 26 | 350 | 0 |
-| 0% | 1% | 5% | 50% | 3% | 41% | 0% |
+| 3 | 5 | 37 | 445 | 26 | 371 | 0 |
+| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
