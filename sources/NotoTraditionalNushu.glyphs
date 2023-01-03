@@ -7,7 +7,8 @@ DisplayStrings = (
 "/u1B2E4",
 "/u1B1E6",
 "/u1B2B2/u1B2B7/u1B2C0",
-"/u1B18F"
+"/u1B18F",
+"/nbspace"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/nushu)";
 customParameters = (
@@ -951,6 +952,36 @@ fontMaster = (
 {
 ascender = 880;
 capHeight = 733;
+customParameters = (
+{
+name = typoAscender;
+value = 860;
+},
+{
+name = typoDescender;
+value = -117;
+},
+{
+name = typoLineGap;
+value = 90;
+},
+{
+name = winAscent;
+value = 1055;
+},
+{
+name = winDescent;
+value = 118;
+},
+{
+name = hheaAscender;
+value = 1055;
+},
+{
+name = hheaDescender;
+value = -117;
+}
+);
 descender = -120;
 guideLines = (
 {
@@ -1035,6 +1066,36 @@ xHeight = 543;
 {
 ascender = 880;
 capHeight = 733;
+customParameters = (
+{
+name = typoAscender;
+value = 860;
+},
+{
+name = typoDescender;
+value = -117;
+},
+{
+name = typoLineGap;
+value = 90;
+},
+{
+name = winAscent;
+value = 1055;
+},
+{
+name = winDescent;
+value = 118;
+},
+{
+name = hheaAscender;
+value = 1055;
+},
+{
+name = hheaDescender;
+value = -117;
+}
+);
 descender = -120;
 guideLines = (
 {
@@ -1125,6 +1186,36 @@ xHeight = 543;
 {
 ascender = 880;
 capHeight = 733;
+customParameters = (
+{
+name = typoAscender;
+value = 860;
+},
+{
+name = typoDescender;
+value = -117;
+},
+{
+name = typoLineGap;
+value = 90;
+},
+{
+name = winAscent;
+value = 1055;
+},
+{
+name = winDescent;
+value = 118;
+},
+{
+name = hheaAscender;
+value = 1055;
+},
+{
+name = hheaDescender;
+value = -117;
+}
+);
 descender = -120;
 guideLines = (
 {
@@ -201406,6 +201497,26 @@ width = 1000;
 );
 note = cid44026;
 unicode = 97E9;
+},
+{
+glyphname = nbspace;
+lastChange = "2023-01-03 07:34:02 +0000";
+layers = (
+{
+layerId = "7B7A33B1-C38B-4BF8-ACF4-708FF5807549";
+width = 600;
+},
+{
+layerId = "6F1FF838-4CD9-4710-9EED-9AFF82DAD6EB";
+width = 600;
+},
+{
+layerId = "43631C01-6FFC-4BF5-B35A-DC7F74885E25";
+width = 600;
+}
+);
+widthMetricsKey = "=space";
+unicode = 00A0;
 },
 {
 glyphname = "period-han";
